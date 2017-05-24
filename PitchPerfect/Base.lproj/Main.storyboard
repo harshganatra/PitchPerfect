@@ -25,7 +25,7 @@
                                 <rect key="frame" x="110" y="256" width="155" height="155"/>
                                 <state key="normal" backgroundImage="recordButton"/>
                                 <connections>
-                                    <action selector="recordAudio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9Ja-yM-M9X"/>
+                                    <action selector="recordAudio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="j9v-fp-BPK"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to record" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pSi-Sn-oCb">
@@ -42,7 +42,7 @@
                                 </constraints>
                                 <state key="normal" backgroundImage="Stop"/>
                                 <connections>
-                                    <action selector="stopRecording:" destination="BYZ-38-t0r" eventType="touchUpInside" id="H3s-x3-eER"/>
+                                    <action selector="stopRecording:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8DD-hP-JBK"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -57,11 +57,9 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="recordAudio" destination="A2w-AA-EuU" id="hBD-uT-CCB"/>
-                        <outlet property="recordButton" destination="A2w-AA-EuU" id="t1K-Fr-yeJ"/>
+                        <outlet property="recordButton" destination="A2w-AA-EuU" id="hCz-1Y-MF3"/>
                         <outlet property="recordLabel" destination="pSi-Sn-oCb" id="Weo-oa-3CC"/>
-                        <outlet property="stopRecording" destination="SFL-k7-nYq" id="4Nc-cW-FJG"/>
-                        <outlet property="stopRecordingButton" destination="SFL-k7-nYq" id="GVx-xl-6Zr"/>
+                        <outlet property="stopRecordingButton" destination="SFL-k7-nYq" id="3Hk-nX-Xe4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
